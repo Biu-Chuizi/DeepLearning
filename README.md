@@ -1,2 +1,2 @@
 # DeepLearning
-course of deepleeaing from Adrian Rosebrock
+Course of deepleeaing from Adrian Rosebrock.
