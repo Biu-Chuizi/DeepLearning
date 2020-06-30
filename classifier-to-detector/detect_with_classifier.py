@@ -1,7 +1,12 @@
-# USAGE
-# python detect_with_classifier.py --image images/stingray.jpg --size "(300, 150)"
-# python detect_with_classifier.py --image images/hummingbird.jpg --size "(250, 250)"
-# python detect_with_classifier.py --image images/lawn_mower.jpg --size "(200, 200)" --min-conf 0.95
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: blur_face_video.py
+# Update: 2020/06/30
+# USAGE: python detect_with_classifier.py --image images/stingray.jpg --size "(300, 150)"
+# 	   	 python detect_with_classifier.py --image images/hummingbird.jpg --size "(250, 250)"
+# 		 python detect_with_classifier.py --image images/lawn_mower.jpg --size "(200, 200)" --min-conf 0.95
+# Description: None
+########################################################################################################
 
 # import the necessary packages
 from tensorflow.keras.applications import ResNet50
