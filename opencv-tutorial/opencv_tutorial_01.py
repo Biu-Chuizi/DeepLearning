@@ -1,5 +1,11 @@
-# USAGE
-# python opencv_tutorial_01.py
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: opencv_tutotial_01.py
+# Update: 2020/06/30
+# USAGE: python opencv_tutorial_01.py
+# Description: None
+########################################################################################################
+
 
 # import the necessary packages
 import argparse

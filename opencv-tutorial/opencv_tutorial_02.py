@@ -1,5 +1,10 @@
-# USAGE
-# python opencv_tutorial_02.py --image tetris_blocks.png
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: opencv_tutotial_02.py
+# Update: 2020/06/30
+# USAGE: python opencv_tutorial_02.py --image tetris_blocks.png
+# Description: None
+########################################################################################################
 
 # import the necessary packages
 import argparse
