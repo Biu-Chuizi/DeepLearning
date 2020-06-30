@@ -1,7 +1,12 @@
-# -*-coding:utf-8 -*-
-# USAGE
-# python blur_face_video.py --face face_detector --method simple
-# python blur_face_video.py --face face_detector --method pixelated
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: blur_face_video.py
+# Update: 2020/06/30
+# USAGE: python blur_face_video.py --face face_detector --method simple
+# 		 python blur_face_video.py --face face_detector --method pixelated
+# Description: None
+########################################################################################################
+
 
 # import the necessary packages
 from pyimagesearch.face_blurring import anonymize_face_pixelate
