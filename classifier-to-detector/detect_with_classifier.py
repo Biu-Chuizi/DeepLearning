@@ -28,7 +28,7 @@ ap.add_argument("-i", "--image", required=True,
 	help="path to the input image")
 ap.add_argument("-s", "--size", type=str, default="(200, 150)",
 	help="ROI size (in pixels)")
-ap.add_argument("-c", "--min-conf", type=float, default=0.9,
+ap.add_argument("-c", "--min-conf", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
 ap.add_argument("-v", "--visualize", type=int, default=-1,
 	help="whether or not to show extra visualizations for debugging")
@@ -179,6 +179,6 @@ for label in labels.keys():
 		cv2.putText(clone, label + " Prob:" + str(prob), (startX, y),		
 			cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 0), 2)
 
-	# show the output after apply non-maxima suppression
+	# show the output after apply non-maxima suppresqsion
 	cv2.imshow("After", clone)
 	cv2.waitKey(0)
