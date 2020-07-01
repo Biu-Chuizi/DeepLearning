@@ -107,8 +107,7 @@ for image in pyramid:
 # show how long it took to loop over the image pyramid layers and
 # sliding window locations
 end = time.time()
-print("[INFO] looping over pyramid/windows took {:.5f} seconds".format(
-	end - start))
+print("[INFO] looping over pyramid/windows took {:.5f} seconds".format(end - start))
 
 # convert the ROIs to a NumPy array
 rois = np.array(rois, dtype="float32")
@@ -119,8 +118,7 @@ print("[INFO] classifying ROIs...")
 start = time.time()
 preds = model.predict(rois)
 end = time.time()
-print("[INFO] classifying ROIs took {:.5f} seconds".format(
-	end - start))
+print("[INFO] classifying ROIs took {:.5f} seconds".format(end - start))
 
 # decode the predictions and initialize a dictionary which maps class
 # labels (keys) to any ROIs associated with that label (values)
@@ -177,7 +175,8 @@ for label in labels.keys():
 		cv2.rectangle(clone, (startX, startY), (endX, endY),
 			(0, 255, 0), 2)
 		y = startY - 10 if startY - 10 > 10 else startY + 10
-		cv2.putText(clone, label, (startX, y),
+	# 可以可以，这里加了prob，label+"Prob:"+str(prob)
+		cv2.putText(clone, label + " Prob:" + str(prob), (startX, y),		
 			cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 0), 2)
 
 	# show the output after apply non-maxima suppression
