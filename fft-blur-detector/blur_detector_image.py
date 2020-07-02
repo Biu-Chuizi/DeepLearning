@@ -6,9 +6,6 @@
 # Description: None
 ########################################################################################################
 
-
-
-
 # import the necessary packages
 from pyimagesearch.blur_detector import detect_blur_fft
 import numpy as np
