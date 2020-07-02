@@ -1,5 +1,12 @@
-# USAGE
-# python blur_detector_video.py
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: blur_detector_video.py
+# Update: 2020/07/02
+# USAGE: python blur_detector_video.py
+# Description: None
+########################################################################################################
+
+
 
 # import the necessary packages
 from imutils.video import VideoStream
