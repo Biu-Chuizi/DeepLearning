@@ -42,6 +42,7 @@ ROI_SIZE = eval(args["size"])
 INPUT_SIZE = (224, 224)
 
 # load our the network weights from disk
+# 应该可以加载自己训练的网络
 print("[INFO] loading network...")
 model = ResNet50(weights="imagenet", include_top=True)
 
