@@ -1,5 +1,13 @@
-# USAGE
-# python blur_detector_image.py --image images/resume_01.png --thresh 27
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: blur_detector_video.py
+# Update: 2020/07/02
+# USAGE: python blur_detector_image.py --image images/resume_01.png --thresh 27
+# Description: None
+########################################################################################################
+
+
+
 
 # import the necessary packages
 from pyimagesearch.blur_detector import detect_blur_fft
