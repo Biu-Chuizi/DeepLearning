@@ -1,4 +1,12 @@
-# USAGE
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: social_distance_detector.py
+# Update: 2020/07/02
+# USAGE: python social_distance_detector.py --input pedestrians.mp4
+# 		 python social_distance_detector.py --input pedestrians.mp4 --output output.avi
+# Description: None
+########################################################################################################
+
 # python social_distance_detector.py --input pedestrians.mp4
 # python social_distance_detector.py --input pedestrians.mp4 --output output.avi
 
