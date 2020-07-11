@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # File: detect.py
 # Update: 2020/06/30
-# USAGE: python detect.py --images images
+# USAGE: python detect.py --images images/person_014.bmp
 # Description: None
 ########################################################################################################
 
