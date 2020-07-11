@@ -3,7 +3,7 @@
 # File: region_proposal_detection.py
 # Update: 2020/07/11
 # USAGE: python region_proposal_detection.py --image beagle.png
-# Description: 通过控制单项personIdx=0读取特定种类，实现单项检测，和我们的原理相似
+# Description: 
 ########################################################################################################
 
 
