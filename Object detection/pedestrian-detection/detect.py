@@ -3,7 +3,7 @@
 # File: detect.py
 # Update: 2020/06/30
 # USAGE: python detect.py --images images
-# Description: None
+# Description: 循环检测一个目录下所有
 ########################################################################################################
 
 
