@@ -1,5 +1,10 @@
-# USAGE
-# python detectmultiscale.py --image images/person_010.bmp
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: detectmultiscale.py
+# Update: 2020/07/11
+# USAGE: python detectmultiscale.py --image images/person_010.bmp
+# Description: 
+########################################################################################################
 
 # import the necessary packages
 from __future__ import print_function

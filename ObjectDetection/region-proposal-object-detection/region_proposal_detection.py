@@ -3,7 +3,7 @@
 # File: region_proposal_detection.py
 # Update: 2020/07/11
 # USAGE: python region_proposal_detection.py --image beagle.png
-# Description: 
+# Description: None
 ########################################################################################################
 
 # import the necessary packages
