@@ -6,7 +6,6 @@
 # Description: 
 ########################################################################################################
 
-
 # import the necessary packages
 from tensorflow.keras.applications import ResNet50
 from tensorflow.keras.applications.resnet50 import preprocess_input
