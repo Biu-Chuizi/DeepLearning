@@ -3,7 +3,7 @@
 # File: detectmultiscale.py
 # Update: 2020/07/11
 # USAGE: python detectmultiscale.py --image images/person_010.bmp
-# Description: 
+# Description: None
 ########################################################################################################
 
 # import the necessary packages
