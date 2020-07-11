@@ -1,5 +1,12 @@
-# USAGE
-# python cat_detector.py --image images/cat_01.jpg
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: cat_detector.py
+# Update: 2020/06/30
+# USAGE: python cat_detector.py --image images/cat_01.jpg
+# Description: None
+########################################################################################################
+
+# 
 
 # import the necessary packages
 import argparse
