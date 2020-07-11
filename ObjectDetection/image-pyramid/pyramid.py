@@ -1,5 +1,11 @@
-# USAGE
-# python pyramid.py --image images/adrian_florida.jpg 
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: pyramid.py
+# Update: 2020/07/11
+# USAGE: python pyramid.py --image images/adrian_florida.jpg 
+# Description: None
+########################################################################################################
+
 
 # import the necessary packages
 from pyimagesearch.helpers import pyramid
