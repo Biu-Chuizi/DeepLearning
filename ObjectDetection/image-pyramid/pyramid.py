@@ -6,7 +6,6 @@
 # Description: None
 ########################################################################################################
 
-
 # import the necessary packages
 from pyimagesearch.helpers import pyramid
 from skimage.transform import pyramid_gaussian
