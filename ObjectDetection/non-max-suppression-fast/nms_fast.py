@@ -1,3 +1,11 @@
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: nms_fast.py
+# Update: 2020/07/12
+# USAGE: python nms_fast.py
+# Description: None
+########################################################################################################
+
 # import the necessary packages
 from pyimagesearch.nms import non_max_suppression_fast
 import numpy as np
@@ -24,7 +32,7 @@ images = [
 # loop over the images
 for (imagePath, boundingBoxes) in images:
 	# load the image and clone it
-	print "[x] %d initial bounding boxes" % (len(boundingBoxes))
+	print("[x] %d initial bounding boxes" % (len(boundingBoxes)))
 	image = cv2.imread(imagePath)
 	orig = image.copy()
 
@@ -34,7 +42,7 @@ for (imagePath, boundingBoxes) in images:
 
 	# perform non-maximum suppression on the bounding boxes
 	pick = non_max_suppression_fast(boundingBoxes, 0.3)
-	print "[x] after applying non-maximum, %d bounding boxes" % (len(pick))
+	print("[x] after applying non-maximum, %d bounding boxes" % (len(pick)))
 
 	# loop over the picked bounding boxes and draw them
 	for (startX, startY, endX, endY) in pick:
