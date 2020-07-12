@@ -1,5 +1,10 @@
-# USAGE
-# python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: deep_learning_object_detection.py
+# Update: 2020/07/12
+# USAGE: python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+# Description: SSD
+########################################################################################################
 
 # import the necessary packages
 from imutils.video import VideoStream
