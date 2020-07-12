@@ -1,6 +1,6 @@
 #######################################################################################################
 # -*- coding:utf-8 -*-
-# File: nms_fast.py
+# File: deep_learning_object_detection.py
 # Update: 2020/07/12
 # USAGE: python deep_learning_object_detection.py --image images/example_01.jpg \
 #	--prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
