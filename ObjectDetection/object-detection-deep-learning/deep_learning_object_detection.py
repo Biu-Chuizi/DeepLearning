@@ -1,6 +1,11 @@
-# USAGE
-# python deep_learning_object_detection.py --image images/example_01.jpg \
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: nms_fast.py
+# Update: 2020/07/12
+# USAGE: python deep_learning_object_detection.py --image images/example_01.jpg \
 #	--prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+# Description: SSD
+########################################################################################################
 
 # import the necessary packages
 import numpy as np
