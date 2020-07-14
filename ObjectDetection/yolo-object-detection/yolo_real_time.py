@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 # File: yolo_real_time.py
 # Update: 2020/07/13
-# USAGE: python yolo_real_time.py --yolo yolo-coco
+# USAGE: python yolo_real_time.py --yolo yolo-coco --weight ../../../../Downloads/
 # Description: None
 ########################################################################################################
 
@@ -18,6 +18,8 @@ import os
 ap = argparse.ArgumentParser()
 ap.add_argument("-y", "--yolo", required=True,
 	help="base path to YOLO directory")
+ap.add_argument("-w", "--weight", required=True,
+	help="base path to weight directory")
 ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
 ap.add_argument("-t", "--threshold", type=float, default=0.3,
@@ -29,7 +31,7 @@ LABELS = open(labelsPath).read().strip().split("\n")
 np.random.seed(42)
 COLORS = np.random.randint(0, 255, size=(len(LABELS), 3),
 	dtype="uint8")
-weightsPath = os.path.sep.join([args["yolo"], "yolov3.weights"])
+weightsPath = os.path.sep.join([args["weight"], "yolov3.weights"])
 configPath = os.path.sep.join([args["yolo"], "yolov3.cfg"])
 
 print("[INFO] loading YOLO from disk...")
