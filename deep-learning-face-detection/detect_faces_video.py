@@ -6,7 +6,6 @@
 # Description: None
 ########################################################################################################
 
-
 # import the necessary packages
 from imutils.video import VideoStream
 import numpy as np

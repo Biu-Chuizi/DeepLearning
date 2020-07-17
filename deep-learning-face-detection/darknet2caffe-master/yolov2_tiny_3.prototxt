@@ -1,9 +1,11 @@
 name: "Darkent2Caffe"
 input: "data"
-input_dim: 1
-input_dim: 3
-input_dim: 416
-input_dim: 416
+input_shape {
+  dim: 1
+  dim: 3
+  dim: 416
+  dim: 416
+}
 
 layer {
     bottom: "data"
