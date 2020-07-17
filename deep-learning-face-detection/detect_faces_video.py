@@ -1,5 +1,11 @@
-# USAGE
-# python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: detect_faces_video.py
+# Update: 2020/07/17
+# USAGE: python detect_faces_video.py --prototxt deploy.prototxt.txt --model res10_300x300_ssd_iter_140000.caffemodel
+# Description: None
+########################################################################################################
+
 
 # import the necessary packages
 from imutils.video import VideoStream
