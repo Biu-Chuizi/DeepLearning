@@ -1,7 +1,11 @@
-# -*- coding: UTF-8 -*-
-# USAGE
-# python ball_tracking.py --video ball_tracking_example.mp4
-# python ball_tracking.py
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: ball_tracking.py
+# Update: 2020/07/20
+# USAGE: python ball_tracking.py --video ball_tracking_example.mp4
+#		python ball_tracking.py
+# Description: None
+########################################################################################################
 
 # import the necessary packages
 from collections import deque
