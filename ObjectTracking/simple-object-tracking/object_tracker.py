@@ -1,5 +1,10 @@
-# USAGE
-# python object_tracker.py --prototxt deploy.prototxt --model res10_300x300_ssd_iter_140000.caffemodel
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: object_tracker.py
+# Update: 2020/07/20
+# USAGE: python object_tracker.py --prototxt deploy.prototxt --model res10_300x300_ssd_iter_140000.caffemodel
+# Description: None
+########################################################################################################
 
 # import the necessary packages
 from pyimagesearch.centroidtracker import CentroidTracker
