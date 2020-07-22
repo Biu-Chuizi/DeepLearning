@@ -16,6 +16,8 @@ import cv2
 import os
 
 ap = argparse.ArgumentParser()
+ap.add_argument("-i", "--input", type=str,
+	help="path to input video")
 ap.add_argument("-y", "--yolo", required=True,
 	help="base path to YOLO directory")
 ap.add_argument("-w", "--weight", required=True,
@@ -38,8 +40,16 @@ print("[INFO] loading YOLO from disk...")
 net = cv2.dnn.readNetFromDarknet(configPath, weightsPath)
 ln = net.getLayerNames()
 ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
+# if a video path was not supplied, grab the reference to the web cam
+if not args.get("video", False):
+	print("[INFO] starting video stream...")
+	vs = VideoStream(src=0).start()
+	time.sleep(1.0)
 
-vs = VideoStream(src=0).start()
+# otherwise, grab a reference to the video file
+else:
+	vs = cv2.VideoCapture(args["video"])
+# vs = VideoStream(src=0).start()
 writer = None
 (W, H) = (None, None)
 
