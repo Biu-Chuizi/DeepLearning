@@ -1,6 +1,11 @@
-# USAGE
-# python opencv_object_tracking.py
-# python opencv_object_tracking.py --video dashcam_boston.mp4 --tracker csrt
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: opencv_object_tracking.py
+# Update: 2020/07/22
+# USAGE: python opencv_object_tracking.py
+# 		python opencv_object_tracking.py --video race.mp4 --tracker csrt
+# Description: None
+########################################################################################################
 
 # import the necessary packages
 from imutils.video import VideoStream
