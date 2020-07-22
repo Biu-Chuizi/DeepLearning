@@ -5,7 +5,7 @@
 # USAGE: # python track_object.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 #	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --video input/race.mp4 \
 #	--label person --output output/race_output.avi
-# Description: 可以选择输入视频，否则调用摄像头
+# Description: None
 ######################################################################################################### USAGE
 
 # import the necessary packages
