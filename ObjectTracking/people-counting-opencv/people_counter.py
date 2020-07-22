@@ -1,5 +1,9 @@
-# USAGE
-# To read and write back out to video:
+#######################################################################################################
+# -*- coding:utf-8 -*-
+# File: people_counter.py
+# Update: 2020/07/22
+# USAGE: None
+# Description: # To read and write back out to video:
 # python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 #	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel --input videos/example_01.mp4 \
 #	--output output/output_01.avi
@@ -8,6 +12,7 @@
 # python people_counter.py --prototxt mobilenet_ssd/MobileNetSSD_deploy.prototxt \
 #	--model mobilenet_ssd/MobileNetSSD_deploy.caffemodel \
 #	--output output/webcam_output.avi
+######################################################################################################### USAGE
 
 # import the necessary packages
 from pyimagesearch.centroidtracker import CentroidTracker
