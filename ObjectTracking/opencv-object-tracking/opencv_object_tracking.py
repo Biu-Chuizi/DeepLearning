@@ -4,7 +4,7 @@
 # Update: 2020/07/22
 # USAGE: python opencv_object_tracking.py
 # 		python opencv_object_tracking.py --video race.mp4 --tracker csrt
-# Description: None
+# Description: 可以选择输入视频，否则调用摄像头
 ########################################################################################################
 
 # import the necessary packages
